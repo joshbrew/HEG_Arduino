@@ -19,4 +19,4 @@ so you can play around with that in case the scoring isn't working right.
 
 
 Note: See in HEG_Graph.png, the higher square peak is the IR, the lower one is the Red light. That's what you should expect to see from the sensor.
-![Graph](https://github.com/moothyknight/HEG_Arduino/blob/master/HEG_Graph.PNG)
+![Graph](/HEG_Graph.PNG)
