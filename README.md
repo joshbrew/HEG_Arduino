@@ -22,6 +22,8 @@ so you can play around with that in case the scoring isn't working right.
 
 This is a near-Infrared setup for bloodflow. To do passive IR for metabolic information, just unplug the red LED. Brain metabolism is 90% correlated with bloodflow so it doesn't make much of a difference, and bloodflow is easier to understand and control so that's the default I chose. 
 
+For more info, or if you want me to make you one (I'm working on a professional version), email me at: brewster.joshua1@gmail.com
+
 Note: See in HEG_Graph.png, the higher square peak is the IR, the lower one is the Red light. That's what you should expect to see from the sensor.
 
 #### Sample Graph (noisy):
