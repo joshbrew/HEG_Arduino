@@ -3,7 +3,7 @@
 
 ![Blueprint](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/HEG_Arduino_BP.png)
 
-Uses an Arduino Nano V3, an Adafruit ADS1115, an OPT101, a BR1102W and AN1102W Red and IR LEDs respectively.
+Uses an Arduino Nano V3, an Adafruit ADS1115, an OPT101, a BR1102W and AN1102W Red and IR LEDs respectively. (~$20)
 
 Run the HEG_Arduino.ino sketch in with Arduino IDE or with the correct libraries in your preferred.
 I will get a CircuitPython version going.
