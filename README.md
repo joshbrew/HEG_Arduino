@@ -1,12 +1,13 @@
-## HEG - Hemoencephalography
+## HEG - Hemoencephalography - nIR or pIR
 ### DIY Brain-Bloodflow Biofeedback
 
 ![Blueprint](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/HEG_Arduino_BP.png)
 
 Uses an Arduino Nano V3, an Adafruit ADS1115, an OPT101, a BR1102W and AN1102W Red and IR LEDs respectively. (~$20)
 
-Run the HEG_Arduino.ino sketch in with Arduino IDE or with the correct libraries in your preferred.
-I will get a CircuitPython version going.
+Run the HEG_Arduino.ino sketch in with Arduino IDE or with the correct libraries in your preferred IDE (e.g. Visual Studio). 
+Play around with the sample rates in the sketch.
+I will get a CircuitPython version going to open up more possibilities. 
 
 To use, just plug in the Nano, upload this script, and it should read out
 the ADS data. 
@@ -19,6 +20,7 @@ so you can play around with that in case the scoring isn't working right.
 - Score is summed from ratio minus baseline for each successful reading.
 - This is as basic and bare-bones an implementation as possible. 
 
+This is a near-Infrared setup for bloodflow. To do passive IR for metabolic information, just unplug the red LED. Brain metabolism is 90% correlated with bloodflow so it doesn't make much of a difference, and bloodflow is easier to understand and control so that's the default I chose. 
 
 Note: See in HEG_Graph.png, the higher square peak is the IR, the lower one is the Red light. That's what you should expect to see from the sensor.
 
