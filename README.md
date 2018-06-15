@@ -5,8 +5,9 @@
 
 Uses an Arduino Nano V3, an Adafruit ADS1115, an OPT101, a BR1102W and AN1102W Red and IR LEDs respectively. (~$20)
 
-Run the HEG_Arduino.ino sketch in with Arduino IDE or with the correct libraries in your preferred.
-I will get a CircuitPython version going.
+Run the HEG_Arduino.ino sketch in with Arduino IDE or with the correct libraries in your preferred IDE (e.g. Visual Studio). 
+Play around with the sample rates in the sketch.
+I will get a CircuitPython version going to open up more possibilities. 
 
 To use, just plug in the Nano, upload this script, and it should read out
 the ADS data. 
