@@ -1,5 +1,5 @@
 ## HEG - Hemoencephalography
-### DIY Biofeedback
+### DIY Brain-Bloodflow Biofeedback
 
 ![Blueprint](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/HEG_Arduino_BP.png)
 
