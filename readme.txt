@@ -1,4 +1,4 @@
-Uses an Arduino Nano V3, an Adafruit ADS1115, an OPT101, a BR1102W and an AN1102W IR and Red LED.
+Uses an Arduino Nano V3, an Adafruit ADS1115, an OPT101, a BR1102W and AN1102W IR and Red LED respectively.
 
 Run this in with Arduino IDE or with the correct libraries in your preferred.
 I will get a CircuitPython version going.
