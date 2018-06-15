@@ -1,6 +1,8 @@
 ## HEG - Hemoencephalography
 ### DIY Biofeedback
 
+![Blueprint](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/HEG_Arduino_BP.png)
+
 Uses an Arduino Nano V3, an Adafruit ADS1115, an OPT101, a BR1102W and AN1102W Red and IR LEDs respectively.
 
 Run this in with Arduino IDE or with the correct libraries in your preferred.
@@ -21,4 +23,12 @@ so you can play around with that in case the scoring isn't working right.
 Note: See in HEG_Graph.png, the higher square peak is the IR, the lower one is the Red light. That's what you should expect to see from the sensor.
 ![Graph](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/HEG_Graph.PNG)
 
-Check out the rest of the photos in this repository.
+
+#### Explanation:
+![Explanation](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/HEGExplained.png)
+
+#### Prototype w/ bad shielding:
+![Prototype](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/HEG_Arduino_Proto.jpg)
+
+#### Sample Output & Score:
+![output](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/HEGOutput.PNG)
