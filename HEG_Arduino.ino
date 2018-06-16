@@ -39,7 +39,7 @@ unsigned long ledMillis;
 
 //Make sure these divide without decimals remaining for best results
 const unsigned long ledRate = 500; // LED flash rate (ms)
-const unsigned long sampleRate = 2; // ADC read rate (ms). 
+const unsigned long sampleRate = 2; // ADC read rate (ms). ADS1115 has a max of 860sps or 1/860 * 1000 ms
 
 void setup() {
   // initialize serial communications at 9600 bps:
@@ -77,7 +77,7 @@ void loop() {
     //Serial.print("\tVoltage: "); 
     //Serial.println(Voltage,7);
 
-    if(adc0 >= 10000) { // The gain is high but anything over 30000 is most likely not a valid signal
+    if(adc0 >= 10000) { // The gain is high but anything over 10000 is most likely not a valid signal
       Serial.print("\n Bad Read ");
       badSignal = true;
 
@@ -135,7 +135,7 @@ void loop() {
           irValue += adc0;
           ticks2++;
         }
-        if(ticks0 > 100) { // Accumulate 50 samples before taking reading
+        if(ticks0 > 100) { // Accumulate 50 samples per LED before taking reading
           redavg = redValue / ticks1;
           iravg = irValue / ticks2;
           ratio = redavg / iravg;
@@ -149,9 +149,12 @@ void loop() {
           //Serial.print(score);
           //Serial.print("\n");
 
-          ticks0 = 0;
+          ticks0 = 0; //Reset Counters
           ticks1 = 0;
           ticks2 = 0;
+          redValue = 0; //Reset values to get next average
+          irValue = 0;
+          
         }
       }
     }
