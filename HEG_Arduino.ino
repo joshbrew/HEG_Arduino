@@ -69,7 +69,7 @@ void loop() {
 
     // read the analog in value:
     adc0 = ads.readADC_SingleEnded(0);
-    Voltage = (adc0 * bits2mv); // FIX 
+    //Voltage = (adc0 * bits2mv); // FIX 
     
     // print the results to the Serial Monitor:
     Serial.print("ADC Value: ");
@@ -135,7 +135,7 @@ void loop() {
           irValue += adc0;
           ticks2++;
         }
-        if(ticks0 > 100) { // Accumulate 50 samples per LED before taking reading
+        if((ticks2 > 50) && (ticks1 > 50)) { // Accumulate 50 samples per LED before taking reading
           redavg = redValue / ticks1;
           iravg = irValue / ticks2;
           ratio = redavg / iravg;
