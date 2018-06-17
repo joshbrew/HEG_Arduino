@@ -37,7 +37,7 @@ Play around with the sample rates in the sketch.
 - This is as basic and bare-bones an implementation as possible. 
 - I will get a CircuitPython version going to open up more possibilities. 
 
-This is a near-Infrared setup for bloodflow (higher Red/IR ratio equates to higher oxygenation). To read passive IR for metabolic information, just unplug the red LED. Brain metabolism is 90% correlated with bloodflow so it doesn't make much of a difference, and bloodflow is easier to understand and control so that's the default I chose. 
+This is a near-Infrared setup for bloodflow, where a higher Red/IR light ratio equates to higher oxygenation. To read passive IR for metabolic information, just unplug the Red LED. Brain metabolism is 90% correlated with bloodflow, and bloodflow is easier to understand, so I recommend keeping the Red LED. 
 
 For the scoring system, all that matters is your ability to consciously raise the ratio - correlated with increasing oxygenated blood concentration - especially after it falls some, regardless of the final score. I found the score increased the most when I was curious and relaxed at the same time. You can pair the scoring system with a stimulus (like a video playing forward or backward depending on increasing or decreasing score) to assist with this. I'll have some demos for that available soon.
 
