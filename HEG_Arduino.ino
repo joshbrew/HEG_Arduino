@@ -5,26 +5,28 @@
  Reads I2C input for the ADS1115, outputs power to LEDs.
 */
 
-// These constants won't change. They're used to give names to the pins used:
-const int analogInPin = A0;  // Analog input pin that the potentiometer is attached to
-const int analogOutPin = 9; // Analog output pin that the LED is attached to
   // PUT IR IN D2, AND RED IN D3
 int16_t adc0; // Resulting 16 bit integer
 
+//Setup ADS1115
 Adafruit_ADS1115 ads(0x48);
+
 float Voltage = 0.0;
 float range = 32767; // 16 bit ADC (15 bits of range minus one)
 float gain = 0.256           ; // +/- V
 float bits2mv = gain / range;
 
+//Signal flags
 bool first_led = false; // Bool to alternate LEDS
 bool badSignal = false;
 bool signalDetermined = false;
 
+//Counters
 int ticks0 = 0;
 int ticks1 = 0;
 int ticks2 = 0;
 
+//Scoring variables
 long redValue = 0;
 long irValue = 0;
 float redavg = 0;
@@ -33,11 +35,12 @@ float ratio = 0;
 float baseline = 0;
 float score = 0;
 
+//Timing variables
 unsigned long startMillis;
 unsigned long currentMillis;
 unsigned long ledMillis;
 
-//Make sure these divide without decimals remaining for best results
+//Make sure these divide without remainders for best results
 const unsigned long ledRate = 500; // LED flash rate (ms)
 const unsigned long sampleRate = 2; // ADC read rate (ms). ADS1115 has a max of 860sps or 1/860 * 1000 ms
 
@@ -48,6 +51,8 @@ void setup() {
   
   Serial.begin(9600);
   ads.begin();
+ 
+  //This turns the gain up to max to see the most difference
   ads.setGain(GAIN_SIXTEEN);
 
   //ads.setGain(GAIN_TWOTHIRDS);  // 2/3x gain +/- 6.144V  1 bit = 3mV (default)
@@ -57,6 +62,7 @@ void setup() {
   //ads.setGain(GAIN_EIGHT);   // 8x gain   +/- 0.512V  1 bit = 0.25mV
   //ads.setGain(GAIN_SIXTEEN); // 16x gain  +/- 0.256V  1 bit = 0.125mV
 
+  //Start timers
   startMillis = millis();
   ledMillis = millis();
 }
@@ -69,9 +75,10 @@ void loop() {
 
     // read the analog in value:
     adc0 = ads.readADC_SingleEnded(0);
-    //Voltage = (adc0 * bits2mv); // FIX 
+    //Voltage = (adc0 * bits2mv);
     
     // print the results to the Serial Monitor:
+    // Comment this out before uncommenting ratio and scoring
     Serial.print("ADC Value: ");
     Serial.println(adc0);
     //Serial.print("\tVoltage: "); 
@@ -88,7 +95,7 @@ void loop() {
       ticks0 = 0; // Reset counter
       ticks1 = 0;
       ticks2 = 0;
-      redValue = 0;
+      redValue = 0; // Reset values
       irValue = 0;
     }
     else {
@@ -119,7 +126,8 @@ void loop() {
             ticks2 = 0;
             redValue = 0; // Reset values
             irValue = 0;
-
+            
+            //Uncomment this
             //Serial.print("\tBaseline R: ");
             //Serial.println(baseline);
           }
@@ -136,11 +144,12 @@ void loop() {
           ticks2++;
         }
         if((ticks2 > 50) && (ticks1 > 50)) { // Accumulate 50 samples per LED before taking reading
-          redavg = redValue / ticks1;
+          redavg = redValue / ticks1; // Divide value by number of samples accumulated
           iravg = irValue / ticks2;
-          ratio = redavg / iravg;
-          score += ratio - baseline;
+          ratio = redavg / iravg; // Get ratio
+          score += ratio - baseline; // Simple scoring method
           
+          //Uncomment these
           //Serial.print("\tBaseline R: ");
           //Serial.print(baseline);
           //Serial.print("\tNow: ");
@@ -159,8 +168,7 @@ void loop() {
       }
     }
     
-    // wait a minimum of 1.2 milliseconds before the next loop for the analog-to-digital
-    // converter to settle after the last reading:
+
     startMillis = currentMillis;
     
   }
