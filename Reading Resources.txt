@@ -8,7 +8,7 @@ Resources:
 <https://www.ncbi.nlm.nih.gov/pubmed/23156903>
 4. Gomes et al. “Hemoencephalography self-regulation training and its impact on cognition: A study with schizophrenia and healthy participants” 2017. NCBI PubMed. 
 <https://www.ncbi.nlm.nih.gov/pubmed/28882685>
-5. Marzbani et al. “Neurofeedback: A Comprehensive Reveiw on System Design and Clinical Applications” 2016. NCBI PubMed. 
+5. Marzbani et al. “Neurofeedback: A Comprehensive Review on System Design and Clinical Applications” 2016. NCBI PubMed. 
 <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4892319/>
 6. Rakic, Pasko. “Evolution of the neocortex: Perspective from developmental biology” 2009. NCBI Pubmed. 
 <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2913577/>
