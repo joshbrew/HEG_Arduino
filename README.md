@@ -8,7 +8,7 @@ Build time: 1-2 hours.
 Uses an Arduino Nano V3, an Adafruit ADS1115, an OPT101, a BR1102W and AN1102W Red and IR LEDs respectively. (~$20)
 - You'll have to find a headband or something to hold it on your head, and a way to mount & secure the wiring. 
 - You'll need a soldering kit. 
-- The LEDs are surface mounts.
+- The LEDs are surface mounts and require something like [this](https://www.tindie.com/products/nifteecircuits/sot23-6-to-dip-adaptor-set-of-3/).
 - Nano V3 uses a generic USB Mini wire to connect to the computer.
 
 
