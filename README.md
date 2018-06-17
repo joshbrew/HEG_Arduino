@@ -41,7 +41,7 @@ This is a near-Infrared setup for bloodflow. To do passive IR for metabolic info
 
 For the scoring system, all that matters is your ability to consciously raise the ratio - correlated with increasing oxygenated blood concentration - especially after it falls some, regardless of the final score. I found the score increased the most when I was curious and relaxed at the same time. You can pair the scoring system with a stimulus (like a video playing forward or backward depending on increasing or decreasing score) to assist with this. I'll have some demos for that available soon.
 
-For more info, to assist with open-source development, or if you want me to make you one (I'm working on a professional version), email me at: brewster.joshua1@gmail.com
+For more info, to assist with open-source development, or if you want me to make you one (I'm also working on a professional version), email me at: brewster.joshua1@gmail.com
 
 #### Sample Graph (noisy):
 ![Graph](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/HEG_Graph.PNG)
