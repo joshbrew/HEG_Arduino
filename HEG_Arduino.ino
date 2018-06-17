@@ -45,11 +45,14 @@ const unsigned long ledRate = 500; // LED flash rate (ms)
 const unsigned long sampleRate = 2; // ADC read rate (ms). ADS1115 has a max of 860sps or 1/860 * 1000 ms
 
 void setup() {
-  // initialize serial communications at 9600 bps:
+  
+  //Set Digital pin modes
   pinMode(2, OUTPUT);
   pinMode(3, OUTPUT);
   
+  // initialize serial communications at 9600 bps:
   Serial.begin(9600);
+  // Init ADS
   ads.begin();
  
   //This turns the gain up to max to see the most difference
