@@ -3,11 +3,13 @@
 
 ![Blueprint](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/HEG_Arduino_BP.png)
 
+Build time: 1-2 hours.
 
 Uses an Arduino Nano V3, an Adafruit ADS1115, an OPT101, a BR1102W and AN1102W Red and IR LEDs respectively. (~$20)
-You'll have to find a headband or something to hold it on your head. Nano V3 uses USB Mini.
+You'll have to find a headband or something to hold it on your head, and a way to mount & secure the wiring. 
+You'll need a soldering kit.  
+Nano V3 uses a generic USB Mini wire to connect to the computer.
 
-Build time: 1-2 hours.
 
 HEGs typically cost hundreds or thousands on the market, so this is a much better solution for people wanting to get their feet wet with biofeedback and do a cool DIY project to understand the extremely straightforward science better. [HEG biofeedback](https://en.wikipedia.org/wiki/Hemoencephalography) was originally developed to treat ADD in the 90s, later expanding to PTSD, Depression, and perhaps Schizophrenia, due to common stress symptoms like [Hypofrontality](https://en.wikipedia.org/wiki/Hypofrontality) being treatable with this tool. It is implicated for much more, but there's not a whole lot of data (which this 20 dollar version could solve). It is informally called "brain pushups" for how it works out your brain to enable better bloodflow and oxygenation, therefore cognitive functioning and self-control. It only takes 5-10 minutes in the first session to gain control of bloodflow in the targeted area. I don't recommend doing more than 10 minutes at a time with this thing. Be wary of fatigue or headaches the first few times when you start gaining control of your bloodflow.
 
