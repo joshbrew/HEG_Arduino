@@ -42,8 +42,8 @@ This is a near-Infrared setup for bloodflow, where a higher Red/IR light ratio e
 
 For the scoring system, all that matters is your ability to consciously raise the ratio - correlated with increasing oxygenated blood concentration - especially after it falls some, regardless of the final score. I found the score increased the most when I was curious and relaxed at the same time. You can pair the scoring system with a stimulus (like a video playing forward or backward depending on increasing or decreasing score) to assist with this. I'll have some demos for that available soon.
 
-For more info, to assist with open-source development, or if you want me to make you one, email me at: brewster.joshua1@gmail.com.
-To be clear, I'm an enthusiast and student, not a health professional. I'm not making claims with this thing, I just reverse-engineered and updated it (with assistance from [Eric Nichols, KL7AJ](https://alaskit.co/about-us)), so use it at your own risk.
+For more info, to assist with open-source development, or if you want me to make you your own HEG, email me at: brewster.joshua1@gmail.com.
+To be clear, I'm an enthusiast and student, not a health professional. I'm not making claims with this thing, I just reverse-engineered and updated the hardware (with assistance from [Eric Nichols, KL7AJ](https://alaskit.co/about-us)), so use it at your own risk.
 
 #### Sample Graph (noisy):
 ![Graph](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/HEG_Graph.PNG)
