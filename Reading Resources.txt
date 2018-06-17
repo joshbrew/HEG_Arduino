@@ -1,0 +1,30 @@
+Resources:
+
+1. Toomim, H, Marsh, R. “Biofeedback of human central nervous system activity using radiation detection” 1996. USPTO 
+<https://patents.google.com/patent/US5995857A/en>
+2. Bentourkia et al. “Comparison of regional cerebral blood flow and glucose metabolism in the normal brain: effect of aging.” 2000. PubMed. 
+<https://www.ncbi.nlm.nih.gov/pubmed/11099707>
+3. Dias et al. “Clinical efficacy of a new automated hemoencephalographic neurofeedback protocol” 2012. NCBI PubMed. 
+<https://www.ncbi.nlm.nih.gov/pubmed/23156903>
+4. Gomes et al. “Hemoencephalography self-regulation training and its impact on cognition: A study with schizophrenia and healthy participants” 2017. NCBI PubMed. 
+<https://www.ncbi.nlm.nih.gov/pubmed/28882685>
+5. Marzbani et al. “Neurofeedback: A Comprehensive Reveiw on System Design and Clinical Applications” 2016. NCBI PubMed. 
+<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4892319/>
+6. Rakic, Pasko. “Evolution of the neocortex: Perspective from developmental biology” 2009. NCBI Pubmed. 
+<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2913577/>
+7. Galynker et al. 1998. “Hypofrontality and negative symptoms in major depressive disorder.” NCBI PubMed 
+<https://www.ncbi.nlm.nih.gov/pubmed/9544664>
+8. United Nations. “UN health agency reports depression now 'leading cause of disability worldwide'” Feb 2017. 
+<https://news.un.org/en/story/2017/02/552062-un-health-agency-reports-depression-now-leading-cause-disability-worldwide#.WLRpQBB3xBw>
+9. Sharma, Anup et al. “Non-Pharmacological Treatments for ADHD in Youth” 2016. NCBI PubMed. 
+<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4968082/>
+10. PA. “Schizophrenics learn to silence the voices thanks to MRI scanner, game.” Feb 2018. The Sydney Morning Herald. 
+<https://www.smh.com.au/world/europe/schizophrenics-learn-to-silence-the-voices-thanks-to-mri-scanner-game-20180212-p4z00t.html>
+11. Toomim, H., Johnson, R. “Anxiety, Anger, Depression, TBI and HEG” Nov 2009. Futurehealth.org 
+<https://www.futurehealth.org/articles/Anxiety-Anger-Depression-by-Hershel-Toomim-090723-101.html>
+12. S, Yun et al. “Stimulation of entorhinal cortex-dentate gyrus circuitry is antidepressive” April 2018. NCBI PubMed. 
+<https://www.ncbi.nlm.nih.gov/pubmed/29662202>
+13. Dresier M et al. “Mnemonic Training Reshapes Brain Networks to Support Superior Memory” Mar 2017. NCBI PubMed. 
+<https://www.ncbi.nlm.nih.gov/pubmed/28279356>
+14. “Mental Health By The Numbers” 2018. NAMI.org. 
+<https://www.nami.org/learn-more/mental-health-by-the-numbers>
