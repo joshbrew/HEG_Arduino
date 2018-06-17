@@ -19,7 +19,7 @@ HEGs typically cost hundreds or thousands on the market, so this is a much bette
 
 INSTRUCTIONS AFTER ASSEMBLY:
 
-1. To install the Nano, install the Arduino IDE and the USB drivers. Otherwise find them here: https://github.com/HobbyComponents/CH340-Drivers
+1. To install the Nano, install the Arduino IDE and the USB drivers. Otherwise install this driver for your OS with your Nano plugged in: https://github.com/HobbyComponents/CH340-Drivers
 
 2. Open the Arduino IDE, make sure the Nano is selected in the Board tab, as well as the correct Port.
 
