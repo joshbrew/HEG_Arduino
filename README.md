@@ -48,8 +48,8 @@ To be clear, I'm an enthusiast and student, not a health professional. I'm not m
 #### Sample Graph (noisy):
 ![Graph](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/HEG_Graph.PNG)
 
-#### Prototype w/ bad shielding:
-![Prototype](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/HEG_Arduino_Proto.jpg)
+#### Prototype w/ strap:
+![Prototype](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/HEG_Arduino_Proto2.jpg)
 
 #### Sample Output & Score:
 ![output](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/HEGOutput.PNG)
