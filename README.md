@@ -24,7 +24,7 @@ INSTRUCTIONS AFTER ASSEMBLY:
 
 2. Open the Arduino IDE, make sure the Nano is selected in the Board tab, as well as the correct Port.
 
-3. Upload the HEG_Arduino.ino sketch to the Nano with the Arduino IDE or with the correct libraries in your preferred IDE (e.g. Visual Studio). 
+3. Upload the HEG_Arduino.ino sketch to the Nano with the Arduino IDE or with the correct libraries in your preferred IDE (e.g. Visual Studio). Use the IDE's serial monitor unless you prefer a 3rd party one or want to write your own program (stay tuned for mine).
 
 4. See in HEG_Graph.png, the higher square peak is the IR, the lower one is the Red light. That's what you should expect to see from the sensor. Make sure the sensor is properly insulated from all light other than the direction of your forehead. It will absorb light through the back, for instance. 
 
