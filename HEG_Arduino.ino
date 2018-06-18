@@ -107,7 +107,7 @@ void loop() {
         ticks0++;
         if(ticks0 > 100) { // Wait for 100 samples of good signal before getting baseline
           // IR IN D2, RED IN D3
-          if((ticks1 < 500) && (ticks2 < 500) { // Accumulate samples for baseline
+          if((ticks1 < 500) && (ticks2 < 500)) { // Accumulate samples for baseline
             if(first_led == true) { // RED
               redValue += adc0;
               ticks1++;
