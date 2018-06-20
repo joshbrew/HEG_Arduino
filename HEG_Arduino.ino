@@ -116,7 +116,7 @@ void loop() {
               irValue += adc0;
               ticks2++;
             }
-            Serial.print("Getting Baseline...");
+            Serial.print("\n Getting Baseline...");
           }
           else {
             signalDetermined = true;
