@@ -23,7 +23,7 @@ INSTRUCTIONS AFTER ASSEMBLY:
 
 1. To install the Nano, install the Arduino IDE and the USB drivers. Otherwise install this driver for your OS with your Nano plugged in: https://github.com/HobbyComponents/CH340-Drivers
 
-2. Open the Arduino IDE, make sure the Nano is selected in the Board tab, as well as the correct Port.
+2. Open the Arduino IDE, make sure the Nano is selected in the Board tab, as well as the correct Port. Include the ADS1X15 library under Sketch > Include Library > Add .ZIP Library.
 
 3. Upload the HEG_Arduino.ino sketch to the Nano with the Arduino IDE or with the correct libraries in your preferred IDE (e.g. Visual Studio). Use the IDE's serial monitor  to view the output, unless you prefer a 3rd party one or want to write your own program (stay tuned for mine).
 
