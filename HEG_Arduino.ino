@@ -41,7 +41,7 @@ unsigned long currentMillis;
 unsigned long ledMillis;
 
 //Make sure these divide without remainders for best results
-const unsigned long ledRate = 500; // LED flash rate (ms)
+const unsigned long ledRate = 50; // LED flash rate (ms)
 const unsigned long sampleRate = 2; // ADC read rate (ms). ADS1115 has a max of 860sps or 1/860 * 1000 ms
 
 void setup() {
@@ -82,13 +82,13 @@ void loop() {
     
     // print the results to the Serial Monitor:
     // Comment this out before uncommenting ratio and scoring
-    Serial.print("ADC Value: ");
+    Serial.println("ADC Value: ");
     Serial.println(adc0);
-    //Serial.print("\tVoltage: "); 
+    //Serial.println("\tVoltage: "); 
     //Serial.println(Voltage,7);
 
     if(adc0 >= 10000) { // The gain is high but anything over 10000 is most likely not a valid signal
-      Serial.print("\n Bad Read ");
+      Serial.println("\nBad Read ");
       badSignal = true;
 
       //Temp: reset baseline on bad read
@@ -116,7 +116,7 @@ void loop() {
               irValue += adc0;
               ticks2++;
             }
-            Serial.print("\n Getting Baseline...");
+            Serial.println("\nGetting Baseline. . .");
           }
           else {
             signalDetermined = true;
@@ -131,8 +131,8 @@ void loop() {
             irValue = 0;
             
             //Uncomment this
-            //Serial.print("\tBaseline R: ");
-            //Serial.println(baseline);
+            Serial.println("\tBaseline R: ");
+            Serial.println(baseline);
           }
         }
       }
@@ -153,13 +153,12 @@ void loop() {
           score += ratio - baseline; // Simple scoring method
           
           //Uncomment these
-          //Serial.print("\tBaseline R: ");
-          //Serial.print(baseline);
-          //Serial.print("\tNow: ");
-          //Serial.print(ratio);
-          //Serial.print("\tScore: ");
-          //Serial.print(score);
-          //Serial.print("\n");
+          Serial.println("\tBaseline R: ");
+          Serial.println(baseline);
+          Serial.println("\tNow: ");
+          Serial.println(ratio);
+          Serial.println("\tScore: ");
+          Serial.println(score);
 
           ticks0 = 0; //Reset Counters
           ticks1 = 0;
