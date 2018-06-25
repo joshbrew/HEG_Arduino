@@ -29,7 +29,7 @@ INSTRUCTIONS AFTER ASSEMBLY:
 
 4. See in HEG_Graph.png, the higher square peak is the IR, the lower one is the Red light. That's what you should expect to see from the sensor in the serial plotter. Make sure the sensor is properly insulated from all light other than the direction of your forehead. It will absorb light through the back, for instance. 
 
-5. Set DEBUG = true to get the baseline, ratio, and score printing and see that in the console once you have verified the signal is good, then re-upload the program to view the basic ratio and scoring system on the serial reader. 
+5. Set DEBUG = false to get the baseline, ratio, and score printing and see that in the console once you have verified the signal is good, then re-upload the program to view the basic ratio and scoring system on the serial reader. 
 Play around with the sample rates in the sketch.
 
 - The official recommended LED FPS is 17 (1/17 sec), and sample at whatever your maximum ADC rate is. Default set to 2 (1 per LED per sec).
