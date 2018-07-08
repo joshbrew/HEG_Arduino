@@ -72,19 +72,19 @@ class HEG(object):
             
             if len(self.ADC) > 1:
                 m.subplot(1,1,1)
-                m.plot(self.ADC,range(len(self.ADC)),'-')
+                m.plot(range(len(self.ADC)),self.ADC,'-')
                 m.title('HEG Data')
                 m.xlabel('Samples')
                 m.ylabel('ADC Reading')
             if len(self.ratio) > 1:
                 m.subplot(2,1,1)
-                m.plot(self.baseline, range(len(self.baseline)))
-                m.plot(self.ratio, range(len(self.ratio)))
+                m.plot(range(len(self.baseline)),self.baseline)
+                m.plot(range(len(self.ratio)),self.ratio)
                 m.xlabel('Samples')
                 m.ylabel('Ratio')
                 
                 m.subplot(3,1,1)
-                m.plot(self.score,range(len(self.score)))
+                m.plot(range(len(self.score)),self.score)
                 m.xlabel('Samples')
                 m.ylabel('Score')
             
