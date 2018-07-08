@@ -12,6 +12,8 @@ Uses an Arduino Nano V3, an Adafruit ADS1115, an OPT101, a BR1102W and AN1102W R
 - Nano V3 uses a generic USB Mini wire to connect to the computer.
 - Detailed build + materials instructions incoming when I have a final design. Without borrowing the tools, this project costs about $50 dollars altogether. 
 
+Now with a Slack channel: [Slack](https://join.slack.com/t/hegopensource/shared_invite/enQtMzg3ODg1NTk5MTA3LTQ2NTQ1Yzk3OGNjNDJiNDYwNTgzY2ZiZjRlZmVkZTZlNmY0NTgzNTdhOWU3OTI5MWJmMDM0MjljZGU2ODFhMmQ)
+
 
 HEGs typically cost hundreds or thousands on the market, so this is a much better solution for people wanting to get their feet wet with biofeedback and do a cool DIY project to understand the extremely straightforward science better. [HEG biofeedback](https://en.wikipedia.org/wiki/Hemoencephalography) was originally developed as a safe and non-invasive method to treat ADD in the late 90s, later expanding to treating disorders like PTSD and Depression due to common stress symptoms like [Hypofrontality](https://en.wikipedia.org/wiki/Hypofrontality) being treatable with this tool. It is implicated for much more, but there's not a whole lot of data (which this 20 dollar version could solve). It is informally called "brain pushups" for how it works out your brain to enable better bloodflow and oxygenation, therefore cognitive functioning and self-control. It only takes 5-10 minutes in the first session to gain control of bloodflow in the targeted area. I don't recommend doing more than 10 minutes at a time with this thing. Be wary of fatigue or headaches the first few times when you start gaining control of your bloodflow. View the [RecommendedReading.txt](https://github.com/moothyknight/HEG_Arduino/master/RecommendedReading.txt) for some resources to educate yourself more deeply on this subject.
 
@@ -29,7 +31,7 @@ INSTRUCTIONS AFTER ASSEMBLY:
 
 4. See in HEG_Graph.png, the higher square peak is the IR, the lower one is the Red light. That's what you should expect to see from the sensor in the serial plotter. Make sure the sensor is properly insulated from all light other than the direction of your forehead. It will absorb light through the back, for instance. 
 
-5. Set DEBUG = true to get the baseline, ratio, and score printing and see that in the console once you have verified the signal is good, then re-upload the program to view the basic ratio and scoring system on the serial reader. 
+5. Set DEBUG = false to get the baseline, ratio, and score printing and see that in the console once you have verified the signal is good, then re-upload the program to view the basic ratio and scoring system on the serial reader. 
 Play around with the sample rates in the sketch.
 
 - The official recommended LED FPS is 17 (1/17 sec), and sample at whatever your maximum ADC rate is. Default set to 2 (1 per LED per sec).
