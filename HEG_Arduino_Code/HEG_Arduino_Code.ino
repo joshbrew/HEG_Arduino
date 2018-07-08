@@ -84,13 +84,13 @@ void loop() {
     //Voltage = (adc0 * bits2mv);
     
     // print the results to the Serial Monitor:
-    if VIEW_ADC_VALUE == true {
+    if (VIEW_ADC_VALUE == true) {
       Serial.println("ADC Value: ");
       Serial.println(adc0);
       //Serial.println("\tVoltage: "); 
       //Serial.println(Voltage,7);
     }
-    if DEBUG == false {
+    if (DEBUG == false) {
       if(adc0 >= 10000) { // The gain is high but anything over 10000 is most likely not a valid signal
         Serial.println("\nBad Read ");
         badSignal = true;
