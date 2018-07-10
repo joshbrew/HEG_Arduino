@@ -47,7 +47,7 @@ For the scoring system, all that matters is your ability to consciously raise th
 For more info, to assist with open-source development as a coder or tester, or if you want me to make you your own HEG, email me at: brewster.joshua1@gmail.com.
 To be clear, I'm an enthusiast and student, not a health professional. I'm not making claims with this thing, I just reverse-engineered and updated the hardware (with assistance from [Eric Nichols, KL7AJ](https://alaskit.co/about-us) and Travis Priest), so use it at your own risk.
 
-#### 2FPS Sample Signal Graph (noisy):
+#### 20FPS Sample Signal Graph (noisy):
 ![Graph](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/Pics/HEG_Graph.PNG)
 
 #### Prototype w/ strap:
