@@ -34,7 +34,8 @@ INSTRUCTIONS AFTER ASSEMBLY:
 5. Set DEBUG = false to get the baseline, ratio, and score printing and see that in the console once you have verified the signal is good, then re-upload the program to view the basic ratio and scoring system on the serial reader. 
 Play around with the sample rates in the sketch.
 
-- The official recommended LED FPS is 17 (1/17 sec), and sample at whatever your maximum ADC rate is. Default set to 2 (1 per LED per sec).
+- The official recommended LED FPS is 17 (1/17 sec) in the patent. The biofeedback institute uses 100FPS. Default set to 20 (10 per LED per sec).
+- Sample at whatever your maximum ADC rate is. 
 - Ratio is calculated by averaging multiple samples collected for the individual LEDs, then dividing the Red avg with the IR avg. 
 - Score is summed from ratio minus baseline for each successful reading.
 - Baseline resets when you get a bad signal (if the sensor is absorbing too much external light) so you can play around with that in case the scoring isn't looking right. 
