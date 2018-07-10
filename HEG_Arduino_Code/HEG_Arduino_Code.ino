@@ -44,7 +44,7 @@ unsigned long currentMillis;
 unsigned long ledMillis;
 
 //Make sure these divide without remainders for best results
-const unsigned long ledRate = 500; // LED flash rate (ms)
+const unsigned long ledRate = 50; // LED flash rate (ms)
 const unsigned long sampleRate = 2; // ADC read rate (ms). ADS1115 has a max of 860sps or 1/860 * 1000 ms
 
 void setup() {
@@ -136,7 +136,7 @@ void loop() {
               
               //Uncomment this
               Serial.println("\tBaseline R: ");
-              Serial.println(baseline);
+              Serial.print(baseline);
             }
           }
         }
@@ -156,13 +156,14 @@ void loop() {
             ratio = redavg / iravg; // Get ratio
             score += ratio - baseline; // Simple scoring method
             
-            Serial.println("\tBaseline R: ");
-            Serial.println(baseline);
-            Serial.println("\tNow: ");
-            Serial.println(ratio);
-            Serial.println("\tScore: ");
-            Serial.println(score);
-  
+            Serial.print("\tBaseline R: ");
+            Serial.print(baseline);
+            Serial.print("\tNow: ");
+            Serial.print(ratio);
+            Serial.print("\tScore: ");
+            Serial.print(score);
+            Serial.print("\n");
+            
             ticks0 = 0; //Reset Counters
             ticks1 = 0;
             ticks2 = 0;
