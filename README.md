@@ -1,6 +1,9 @@
 ## HEG - Hemoencephalography - nIR or pIR
 ### DIY Brain-Bloodflow Biofeedback
 
+This is now continuing development at: [ESP32_HEG (Biofeedback meets IoT!)](https://github.com/moothyknight/HEG_ESP32/blob/master/README.md)
+
+
 ![Blueprint](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/Pics/HEG_Arduino_BP.png)
 
 Build time: 1-2 hours.
