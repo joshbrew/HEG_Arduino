@@ -2,7 +2,7 @@
 ### DIY Brain-Bloodflow Biofeedback
 
 This is now continuing development at: [ESP32_HEG (Biofeedback meets IoT!)](https://github.com/moothyknight/HEG_ESP32/blob/master/README.md)
-Link includes a modded HEGstudio that you can use with the serial output, however you may need to edit the name of your device's serial port name in the HEGstudio python 2 source and rebuild with pyInstaller.
+Link includes a modded HEGstudio that you can use with the serial output, however you may need to edit the name of your device's serial port registry name (not the COM#, but the name key given in your registry (e.g. "Silabser" for the ESP32)) in the HEGstudio python 2 source and rebuild with pyInstaller.
 
 
 ![Blueprint](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/Pics/HEG_Arduino_BP.png)
