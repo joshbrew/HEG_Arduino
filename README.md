@@ -1,6 +1,10 @@
 ## HEG - Hemoencephalography - nIR or pIR
 ### DIY Brain-Bloodflow Biofeedback
 
+This is now continuing development at: [ESP32_HEG (Biofeedback meets IoT!)](https://github.com/moothyknight/HEG_ESP32/blob/master/README.md)
+Link includes a modded HEGstudio that you can use with the serial output, however you may need to edit the name of your device's serial port registry name (not the COM#, but the name key given in your registry (e.g. "Silabser" for the ESP32)) in the HEGstudio python 2 source and rebuild with pyInstaller.
+
+
 ![Blueprint](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/Pics/HEG_Arduino_BP.png)
 
 Build time: 1-2 hours.
@@ -14,9 +18,9 @@ Uses an Arduino Nano V3, an Adafruit ADS1115, an OPT101, a BR1102W and AN1102W R
 
 Now with a Slack channel: [Slack](https://join.slack.com/t/hegopensource/shared_invite/enQtMzg3ODg1NTk5MTA3LTQ2NTQ1Yzk3OGNjNDJiNDYwNTgzY2ZiZjRlZmVkZTZlNmY0NTgzNTdhOWU3OTI5MWJmMDM0MjljZGU2ODFhMmQ)
 
+Hemoencephalography is a method that allows you to measure and influence control over the bloodflow in your brain. It's just like any other pulse oximetry method, but allows for a type of physical brain exercise. HEG devices typically cost hundreds or thousands on the market, so this is a much better solution for people wanting to get their feet wet with biofeedback and do a cool DIY project to understand the extremely straightforward science better. HEG biofeedback was originally developed as a safe and non-invasive method to treat ADD in the late 90s, later expanding to treating disorders like PTSD and Depression due to common stress symptoms like Hypofrontality being measurable with this tool.
 
-HEGs typically cost hundreds or thousands on the market, so this is a much better solution for people wanting to get their feet wet with biofeedback and do a cool DIY project to understand the extremely straightforward science better. [HEG biofeedback](https://en.wikipedia.org/wiki/Hemoencephalography) was originally developed as a safe and non-invasive method to treat ADD in the late 90s, later expanding to treating disorders like PTSD and Depression due to common stress symptoms like [Hypofrontality](https://en.wikipedia.org/wiki/Hypofrontality) being treatable with this tool. It is implicated for much more, but there's not a whole lot of data (which this 20 dollar version could solve). It is informally called "brain pushups" for how it works out your brain to enable better bloodflow and oxygenation, therefore cognitive functioning and self-control. It only takes 5-10 minutes in the first session to gain control of bloodflow in the targeted area. I don't recommend doing more than 10 minutes at a time with this thing. Be wary of fatigue or headaches the first few times when you start gaining control of your bloodflow. View the [RecommendedReading.txt](https://github.com/moothyknight/HEG_Arduino/master/RecommendedReading.txt) for some resources to educate yourself more deeply on this subject.
-
+It is implicated for much more, but there's not a whole lot of data (which this 20 dollar version could solve). HEG biofeedback is informally called "brain pushups" for how it enables one to literally work out their brain to enable better bloodflow and oxygenation, therefore cognitive functioning and self-control. It only takes 5-10 minutes in the first session to gain control of bloodflow in the targeted area. I don't recommend doing more than 10 minutes at a time with this thing. Be wary of fatigue or headaches the first few times when you start gaining control of your bloodflow. View the RecommendedReading.txt for some resources to educate yourself more deeply on this subject.
 
 #### Explanation:
 ![Explanation](https://raw.githubusercontent.com/moothyknight/HEG_Arduino/master/Pics/HEGExplained.png)
