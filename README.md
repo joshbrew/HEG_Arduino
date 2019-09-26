@@ -1,7 +1,8 @@
 ## HEG - Hemoencephalography - nIR or pIR
 ### DIY Brain-Bloodflow Biofeedback
 
-This is now continuing development at: [ESP32_HEG (Biofeedback meets IoT!)](https://github.com/moothyknight/HEG_ESP32/blob/master/README.md)
+This is now continuing development at: [ESP32_HEG (Biofeedback meets IoT!)](https://github.com/moothyknight/HEG_ESP32/blob/master/README.md). Much of this code is out of date until I come back to a fully generalized solution, so I recommend using HEG.h as your template in my HEG_Esp32 repo. Thanks!
+
 Link includes a modded HEGstudio that you can use with the serial output, however you may need to edit the name of your device's serial port registry name (not the COM#, but the name key given in your registry (e.g. "Silabser" for the ESP32)) in the HEGstudio python 2 source and rebuild with pyInstaller.
 
 
